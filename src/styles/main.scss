@@ -1,0 +1,19 @@
+@use 'normalize';
+@use 'fonts';
+@use 'variables';
+@use 'utils';
+@use 'globals';
+
+@use 'blocks/icon';
+@use 'blocks/button';
+@use 'blocks/burger-button';
+@use 'blocks/badge';
+@use 'blocks/logo';
+@use 'blocks/soc1als';
+
+@use 'blocks/header';
+@use 'blocks/footer';
+
+.header {
+  display: none !important;
+}
