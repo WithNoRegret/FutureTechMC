@@ -10,10 +10,16 @@
 @use 'blocks/badge';
 @use 'blocks/logo';
 @use 'blocks/soc1als';
-
 @use 'blocks/header';
 @use 'blocks/footer';
+@use 'blocks/metrics';
+@use 'blocks/team';
+@use 'blocks/resources-preview';
+@use 'blocks/advantage-card';
+@use 'blocks/hero';
 
-.header {
+.header,
+.footer {
   display: none !important;
 }
+
