@@ -24,7 +24,7 @@ $mobile-s: 480.98;
 }
 
 @mixin tablet {
-  @media (width <= rem($laptop)) {
+  @media (width <= rem($tablet)) {
     @content;
   }
 }
@@ -36,7 +36,7 @@ $mobile-s: 480.98;
 }
 
 @mixin mobile {
-  @media (width <= rem($laptop)) {
+  @media (width <= rem($mobile)) {
     @content;
   }
 }
@@ -48,7 +48,7 @@ $mobile-s: 480.98;
 }
 
 @mixin mobile-s {
-  @media (width <= rem($laptop)) {
+  @media (width <= rem($mobile-s)) {
     @content;
   }
 }
