@@ -25,6 +25,7 @@
         &:nth-child(even) {
           @include full-vw-centered-line(bottom, auto, 100%, 50%);
 
+          position: relative;
           padding-left: var(--itemPaddingX);
         }
       }

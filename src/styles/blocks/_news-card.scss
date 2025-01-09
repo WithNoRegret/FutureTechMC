@@ -12,7 +12,7 @@
   &:has(.news-card__summary) {
     align-items: center;
     column-gap: rem(80);
-    padding-bottom: fluid(80, 20);
+    padding-block: fluid(80, 20);
 
     @include laptop {
       column-gap: rem(40);
