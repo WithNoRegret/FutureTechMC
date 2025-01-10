@@ -18,6 +18,8 @@
       var(--color-dark-15) 64%,
       var(--color-accent) 136%
   );
+  /* shadows */
+  --shadow: 0 0 0 #{rem(3)} #191919;
   /* border */
   --border: #{rem(1)} solid var(--color-dark-15);
   /* font-family */

@@ -120,6 +120,7 @@
       @include tablet-above {
         &:not(:last-child) {
           padding-right: var(--paddingX);
+          border-right: var(--border);
         }
 
         &:not(:first-child) {
